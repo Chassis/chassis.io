@@ -1,0 +1,6 @@
+# System-level.
+.DS_Store
+
+# Jekyll
+.sass-cache
+_site
