@@ -6,16 +6,16 @@ layout: home
 	<div class="wrap">
 		<div class="title">
 			<img
-				src="/images/logo-128.png"
-				srcset="/images/logo-128.png 1x, /images/logo-256.png 2x"
+				src="{{ site.baseurl }}images/logo-128.png"
+				srcset="{{ site.baseurl }}images/logo-128.png 1x, {{ site.baseurl }}images/logo-256.png 2x"
 			/>
 			<h1>Develop WordPress Sites Locally with
 				<strong>Chassis</strong></h1>
 		</div>
 
 		<!-- <img
-			src="/images/main.png"
-			srcset="/images/main.png 1x, /images/main@2x.png 2x"
+			src="{{ site.baseurl }}images/main.png"
+			srcset="{{ site.baseurl }}images/main.png 1x, {{ site.baseurl }}images/main@2x.png 2x"
 		/> -->
 
 		<div class="get">
@@ -76,8 +76,8 @@ nginx version: nginx/1.1.19</pre>
 	<div>
 		<img
 			class="mac-screenshot"
-			src="/images/keyboard.png"
-			srcset="/images/keyboard.png 1x, /images/keyboard@2x.png 2x"
+			src="{{ site.baseurl }}images/keyboard.png"
+			srcset="{{ site.baseurl }}images/keyboard.png 1x, {{ site.baseurl }}images/keyboard@2x.png 2x"
 		/>
 	</div>
 </section>
@@ -86,7 +86,7 @@ nginx version: nginx/1.1.19</pre>
 	<div>
 		<h2>Extensible <abbr title="as Frasier">a.f.</abbr></h2>
 		<p>We can&lsquo;t be everything to everyone. Fortunately, with Chassis&lsquo; ecosystem of extensions, you can build a system to your exact specifications.</p>
-		<a class="button" href="/extensions/">
+		<a class="button" href="{{ site.baseurl }}extensions/">
 			<i class="fa fa-puzzle-piece"></i>
 			View all {{ site.data.extensions|size }} extensions
 			&rarr;
