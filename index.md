@@ -129,14 +129,14 @@ nginx version: nginx/1.1.19</pre>
 			</a>
 			<a href="https://github.com/Chassis/Chassis/graphs/network">
 				<i class="fa fa-code-fork"></i>
-				<strong id="gh-forks">63</strong> forks
+				<strong id="gh-forks">70</strong> forks
 			</a>
 		</p>
 		<a class="star ghbtn" href="https://github.com/Chassis/Chassis/stargazers">
-			<span><i class="fa fa-star"></i> Star</span><span id="gh-stars">340</span>
+			<span><i class="fa fa-star"></i> Star</span><span id="gh-stars">422</span>
 		</a>
 		<a class="watch ghbtn" href="https://github.com/Chassis/Chassis/watchers">
-			<span><i class="fa fa-eye"></i> Watch</span><span id="gh-watchers">28</span>
+			<span><i class="fa fa-eye"></i> Watch</span><span id="gh-watchers">35</span>
 		</a>
 	</div>
 </section>
