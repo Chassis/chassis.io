@@ -1,0 +1,32 @@
+{% include header.html %}
+
+<a href="#page-content" class="screen-reader-text">Jump to page content</a>
+
+<header id="page-header">
+	<div class="wrap">
+		<div class="title">
+			<img
+				src="/images/logo-128.png"
+				srcset="/images/logo-128.png 1x, /images/logo-256.png 2x"
+			/>
+			<h1>Chassis</h1>
+		</div>
+		<nav>
+			<h2 class="screen-reader-text">Site Navigation</h2>
+			<ul>
+				<li><a href="/">Home</a></li>
+				<li><a href="http://docs.chassis.io/">Documentation</a></li>
+				<li><a href="/extensions/">Extensions</a></li>
+				<!--<li><a href="/">Support</a></li>-->
+			</ul>
+		</nav>
+	</div>
+</header>
+
+<article id="page-content" class="wrap">
+	<h2>{{ page.title }}</h2>
+
+	{{ content }}
+</article>
+
+{% include footer.html %}

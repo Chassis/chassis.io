@@ -1,0 +1,18 @@
+name: Chassis
+
+markdown: kramdown
+highlighter: rouge
+
+baseurl: /
+permalink: pretty
+
+sass:
+  sass_dir: styles
+
+defaults:
+  -
+    scope:
+      path: "" # empty string for all files
+      type: pages
+    values:
+      layout: default

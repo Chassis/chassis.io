@@ -1,0 +1,80 @@
+#page-footer {
+	background: darken( $color-grey, 60% );
+	color: $color-grey;
+	padding: 1rem 0;
+	font-size: 0.8rem;
+
+	.cols {
+		display: flex;
+
+		> * {
+			width: 22.75%;
+			margin-right: 3%;
+		}
+
+		> :last-child {
+			margin-right: 0;
+		}
+
+		@include breakpoint-small {
+			// display: block;
+			flex-wrap: wrap;
+			align-items: space-between;
+
+			> :first-child {
+				width: 100%;
+			}
+
+			> * {
+				width: 45%;
+				margin-right: 0;
+			}
+		}
+	}
+
+	h2 {
+		font-size: inherit;
+		font-weight: 400;
+	}
+
+	h3 {
+		font-weight: 400;
+	}
+
+	a {
+		color: #fff;
+		text-decoration: none;
+		border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+
+		&:hover, &:active {
+			border-bottom-color: #fff;
+		}
+	}
+
+	ul {
+		list-style-type: none;
+		list-style-position: outside;
+		padding-left: 0;
+		margin-left: 0;
+	}
+
+	li {
+		margin-bottom: 0.5em;
+	}
+
+	.logo-combo {
+		display: flex;
+		align-items: center;
+		font-family: $font-heading;
+		font-size: 1.6rem;
+		margin-top: 0.5rem;
+
+		img {
+			margin-right: 0.5em;
+		}
+
+		p {
+			margin: 0;
+		}
+	}
+}

@@ -1,0 +1,11 @@
+$color-primary: #29ABE2;
+$color-secondary: #D9E021;
+$color-grey: #CCCCCC;
+$font-body: "Open Sans", sans-serif;
+$font-heading: Montserrat, sans-serif;
+
+@mixin breakpoint-small {
+	@media only screen and (max-width: 600px) {
+		@content;
+	}
+}

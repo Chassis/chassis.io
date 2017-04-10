@@ -1,0 +1,17 @@
+.button {
+	padding: 0.3rem 0.4rem;
+	color: $color-primary;
+	text-decoration: none;
+	border: 1px solid transparent;
+	border-color: rgba($color-primary, 0.4);
+	border-radius: 4px;
+	display: inline-block;
+
+	&:hover, &:active {
+		background: rgba($color-primary, 0.1);
+	}
+
+	> i:first-child {
+		margin-right: 0.5rem;
+	}
+}

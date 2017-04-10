@@ -1,0 +1,4 @@
+---
+layout: nil
+---
+{{ site.data.extensions | jsonify }}

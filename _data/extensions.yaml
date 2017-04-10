@@ -1,0 +1,43 @@
+- name: Cavalcade
+  repository: Chassis/Cavalcade
+  description: Replace wp-cron with Cavalcade, a horizontally scalable jobs system.
+
+- name: Debugging
+  repository: Chassis/Debugging
+  description: Install and activate common debugging plugins.
+
+- name: Fish
+  repository: Chassis/Fish
+  description: Install the fish shell.
+
+- name: Imagick
+  repository: Chassis/Imagick
+  description: Add ImageMagick to PHP.
+
+- name: MailHog
+  repository: Chassis/MailHog
+  description: Intercept outgoing mail and view it with a web interface.
+
+- name: Node.js
+  repository: Chassis/nodejs
+  description: Install Node.js.
+
+- name: Memcache
+  repository: Chassis/Memcache
+  description: Install memcache and add it to PHP (uses PECL memcache).
+
+- name: Photon
+  repository: Chassis/Photon
+  description: Install a local copy of Photon to serve images.
+
+- name: Tester
+  repository: Chassis/Tester
+  description: Install and configure PHPUnit, including WordPress core unit tests.
+
+- name: Xdebug
+  repository: Chassis/Xdebug
+  description: Install Xdebug to profile your PHP.
+
+- name: XHProf
+  repository: Chassis/xhprof
+  description: Install xhprof to profile your PHP, and view profiles through xhgui.

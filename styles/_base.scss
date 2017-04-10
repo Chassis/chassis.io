@@ -1,0 +1,50 @@
+html {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: $font-body;
+	line-height: 1.5;
+}
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+body {
+	margin: 0;
+	padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: $font-heading;
+}
+
+a {
+	color: $color-primary;
+}
+
+.wrap {
+	max-width: 960px;
+	margin: {
+		left: auto;
+		right: auto;
+	}
+
+	@include breakpoint-small {
+		width: 96%;
+		margin-left: 2%;
+		margin-right: 2%;
+	}
+}
+
+.screen-reader-text {
+	clip: rect(1px, 1px, 1px, 1px);
+	position: absolute !important;
+	height: 1px;
+	width: 1px;
+	overflow: hidden;
+}
+
+@mixin dpr-retina {
+	@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+		@content;
+	}
+}

@@ -1,0 +1,9 @@
+.extension {
+	transition: transform 100ms, opacity 130ms;
+}
+
+.extension.no-match {
+	transform: scale(0.5, 0.5);
+	opacity: 0;
+	order: 5;
+}
