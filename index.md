@@ -24,7 +24,7 @@ layout: home
 					<i class="fa fa-download"></i>
 					<span>
 						<span class="main">Download Chassis Desktop</span>
-						<span class="details">v1.0, released 19 November 2016</span>
+						<span class="details">v1.0, releasing soon</span>
 					</span>
 				</a>
 			</div>
@@ -149,7 +149,7 @@ nginx version: nginx/1.1.19</pre>
 				<i class="fa fa-download"></i>
 				<span>
 					<span class="main">Download Chassis Desktop</span>
-					<span class="details">v1.0, released 19 November 2016</span>
+					<span class="details">v1.0, releasing soon</span>
 				</span>
 			</a>
 			<a href="//github.com/Chassis/Chassis" class="download">
