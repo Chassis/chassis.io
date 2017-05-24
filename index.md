@@ -20,11 +20,11 @@ layout: home
 
 		<div class="get">
 			<div class="desktop">
-				<a href="//github.com/Chassis/Desktop" class="download">
+				<a href="//github.com/Chassis/Desktop/releases/tag/0.2.0" class="download">
 					<i class="fa fa-download"></i>
 					<span>
 						<span class="main">Download Chassis Desktop</span>
-						<span class="details">v1.0, releasing soon</span>
+						<span class="details">v0.2.0, released 24 May 2017</span>
 					</span>
 				</a>
 			</div>
