@@ -6,6 +6,8 @@ Chassis has a system of add-ons, just like WordPress' plugins. Extensions can in
 
 [Learn how to install extensions](http://docs.chassis.io/en/latest/extend/).
 
+[Add your extension to the list](https://github.com/Chassis/chassis.io/blob/master/_data/extensions.yaml)
+
 <p><label>
 	Filter extensions:
 	<input type="search" id="extension-filter" />
