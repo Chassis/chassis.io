@@ -6,13 +6,29 @@
   repository: Chassis/Debugging
   description: Install and activate common debugging plugins.
 
+- name: Tester
+  repository: Chassis/Tester
+  description: Install and configure PHPUnit, including WordPress core unit tests.
+
+- name: OpenSSL / HTTPS
+  repository: javorszky/chassis-openssl
+  description: Installs openssl, generates a certificate, to enable HTTPS on your site.
+
+- name: Xdebug
+  repository: Chassis/Xdebug
+  description: Install Xdebug to profile your PHP.
+
+- name: webgrind
+  repository: Chassis/webgrind
+  description: Install webgrind
+
+- name: XHProf
+  repository: Chassis/xhprof
+  description: Install xhprof to profile your PHP, and view profiles through xhgui.
+
 - name: Fish
   repository: Chassis/Fish
   description: Install the fish shell.
-
-- name: Imagick
-  repository: Chassis/Imagick
-  description: Add ImageMagick to PHP.
 
 - name: MailHog
   repository: Chassis/MailHog
@@ -22,22 +38,86 @@
   repository: Chassis/nodejs
   description: Install Node.js.
 
+- name: npm
+  repository: Chassis/npm
+  description: Install the latest npm release
+
+- name: Grunt
+  repository: Chassis/Grunt
+  description: Install Grunt
+
+- name: Gulp
+  repository: Chassis/Gulp
+  description: Install Gulp
+
+- name: Yarn
+  repository: Chassis/Yarn
+  description: Install Yarn
+
+- name: Bower
+  repository: Chassis/Bower
+  description: Install Bower
+
 - name: Memcache
   repository: Chassis/Memcache
   description: Install memcache and add it to PHP (uses PECL memcache).
+
+- name: Redis
+  repository: shadyvb/chassis-redis
+  description: Install Redis and add it to PHP.
+
+- name: MariaDB
+  repository: Chassis/MariaDB
+  description: Install MariaDB
+
+- name: SequelPro
+  repository: Chassis/SequelPro
+  description: Open your database in Sequel Pro with a single command
+
+- name: phpMyAdmin
+  repository: Chassis/phpMyAdmin
+  description: Install phpMyAdmin
+
+- name: Database Backup/Restore
+  repository: Chassis/db-backup
+  description: Backup and restore your database automatically on destroy/provision
 
 - name: Photon
   repository: Chassis/Photon
   description: Install a local copy of Photon to serve images.
 
-- name: Tester
-  repository: Chassis/Tester
-  description: Install and configure PHPUnit, including WordPress core unit tests.
+- name: ElasticSearch
+  repository: Chassis/Chassis-Elasticsearch
+  description: Adds an ElasticSearch server to your Chassis box
 
-- name: Xdebug
-  repository: Chassis/Xdebug
-  description: Install Xdebug to profile your PHP.
+- name: Gutenberg
+  repository: Chassis/Gutenberg
+  description: Install Gutenberg
 
-- name: XHProf
-  repository: Chassis/xhprof
-  description: Install xhprof to profile your PHP, and view profiles through xhgui.
+- name: PHP CodeSniffer
+  repository: Chassis/phpcs
+  description: Install PHP CodeSniffer
+
+- name: phpfpmconf
+  repository: Chassis/phpfpmconf
+  description: Modify php-fpm.conf programmatically
+
+- name: PHP.ini
+  repository: Chassis/phpini
+  description: Load and apply custom settings for php.ini files
+
+- name: WordPress Classic VIP
+  repository: Chassis/vip-classic
+  description: Add support for WordPress VIP Classic environment, replaces the discontiued QuickStart
+
+- name: Imagick
+  repository: Chassis/Imagick
+  description: Add ImageMagick to PHP.
+
+- name: Gmagick
+  repository: Chassis/gmagick
+  description: Install Gmagick
+
+- name: mcrypt
+  repository: Chassis/mcrypt
+  description: Install mcrypt
