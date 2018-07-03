@@ -8,6 +8,7 @@ permalink: pretty
 
 sass:
   sass_dir: styles
+  style: compressed
 
 defaults:
   -
