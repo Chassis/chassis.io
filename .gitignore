@@ -1,6 +1,9 @@
 # System-level.
 .DS_Store
 
+# PhpStorm Files
+.idea
+
 # Jekyll
 .sass-cache
 _site
