@@ -1,9 +1,9 @@
-name: Chassis
+title: Chassis
 
 markdown: kramdown
 highlighter: rouge
 
-baseurl: /
+baseurl: /chassis.io/
 permalink: pretty
 
 sass:
