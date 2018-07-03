@@ -84,7 +84,7 @@ nginx version: nginx/1.1.19</pre>
 
 <section class="wrap block">
 	<div>
-		<h2>Extensible <abbr title="as Frasier">a.f.</abbr></h2>
+		<h2>Extensible <abbr title="as Frasier">AF</abbr></h2>
 		<p>We can&lsquo;t be everything to everyone. Fortunately, with Chassis&lsquo; ecosystem of extensions, you can build a system to your exact specifications.</p>
 		<a class="button" href="{{ site.baseurl }}extensions/">
 			<i class="fa fa-puzzle-piece"></i>
