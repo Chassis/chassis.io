@@ -3,7 +3,7 @@ title: Chassis
 markdown: kramdown
 highlighter: rouge
 
-baseurl: /chassis.io/
+baseurl: /chassis.io
 permalink: pretty
 
 sass:
