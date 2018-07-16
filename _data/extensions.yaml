@@ -121,3 +121,27 @@
 - name: mcrypt
   repository: Chassis/mcrypt
   description: Install mcrypt
+
+- name: ElasticSearch
+  repository: Chassis/chassis-elasticsearch
+  description: Install ElasticSearch
+
+- name: Minio
+  repository: Chassis/Chassis-Minio
+  description: A Chassis extension to install and configure the Minio server and client on your Chassis server.
+
+- name: Tachyon
+  repository: Chassis/Tachyon
+  description: A Chassis extension to install and configure Tachyon on your Chassis server.
+
+- name: Fake S3
+  repository: Chassis/FakeS3
+  description: A Chassis extension to install and configure Fake S3 on your Chassis server.
+
+- name: v8js
+  repository: Chassis/v8js
+  description: Installs the v8js PHP extension, letting you run JavaScript code in PHP.
+
+- name: intl
+  repository: Chassis/intl
+  description: A Chassis extension to install and configure Intl on your server.
