@@ -1,4 +1,4 @@
-# [Chassis.io](http://beta.chassis.io) - The repo for the Jekyll based site hosted on GitHub pages.
+# [Chassis.io](https://beta.chassis.io) - The repo for the Jekyll based site hosted on GitHub pages.
 
 # Requirements
 You'll need Ruby 2.1.0 or higher installed.
