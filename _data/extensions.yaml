@@ -11,7 +11,7 @@
   description: Install and configure PHPUnit, including WordPress core unit tests.
 
 - name: OpenSSL / HTTPS
-  repository: javorszky/chassis-openssl
+  repository: chassis/chassis_openssl
   description: Installs openssl, generates a certificate, to enable HTTPS on your site.
 
 - name: Xdebug
@@ -79,7 +79,7 @@
   description: Install phpMyAdmin
 
 - name: Database Backup/Restore
-  repository: Chassis/db-backup
+  repository: Chassis/db_backup
   description: Backup and restore your database automatically on destroy/provision
 
 - name: Photon
@@ -87,7 +87,7 @@
   description: Install a local copy of Photon to serve images.
 
 - name: ElasticSearch
-  repository: Chassis/Chassis-Elasticsearch
+  repository: Chassis/Chassis_Elasticsearch
   description: Adds an ElasticSearch server to your Chassis box
 
 - name: Gutenberg
@@ -107,7 +107,7 @@
   description: Load and apply custom settings for php.ini files
 
 - name: WordPress Classic VIP
-  repository: Chassis/vip-classic
+  repository: Chassis/vip_classic
   description: Add support for WordPress VIP Classic environment, replaces the discontiued QuickStart
 
 - name: Imagick
@@ -122,12 +122,8 @@
   repository: Chassis/mcrypt
   description: Install mcrypt
 
-- name: ElasticSearch
-  repository: Chassis/chassis-elasticsearch
-  description: Install ElasticSearch
-
 - name: Minio
-  repository: Chassis/Chassis-Minio
+  repository: Chassis/Chassis_Minio
   description: A Chassis extension to install and configure the Minio server and client on your Chassis server.
 
 - name: Tachyon
