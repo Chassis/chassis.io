@@ -141,3 +141,55 @@
 - name: intl
   repository: Chassis/intl
   description: A Chassis extension to install and configure Intl on your server.
+
+- name: XHGui
+  repository: Chassis/Chassis_XHGui
+  description: A Chassis extension to install XHGui on your server.
+
+- name: PHPUnit
+  repository: Chassis/phpunit
+  description: A Chassis extension to install PHPUnit on your server.
+
+- name: Core Dev
+  repository: Chassis/core_dev
+  description: A Chassis extension for WordPress Core development.
+
+- name: BuddyPress Dev
+  repository: Chassis/buddypress_dev
+  description: A Chassis extension for BuddyPress Core development.
+
+- name: Composer
+  repository: Chassis/composer
+  description: An extensions to install Composer on your Chassis box.
+
+- name: Query Monitor
+  repository: Chassis/query_monitor
+  description: A Chassis extension that installs and activates Query Monitor for Chassis.
+
+- name: WP_CLI
+  repository: Chassis/WP_CLI
+  description: A Chassis extension to automate the installation of WP-CLI packages.
+
+- name: Wonolog
+  repository: Chassis/Wonolog
+  description: A Chassis extension to install and configure Wonolog.
+
+- name: BCMath
+  repository: Chassis/BCMath
+  description: A Chassis extension to install BC Math.
+
+- name: PhpDbg
+  repository: Chassis/phpdbg
+  description: A Chassis extension to install and configure PhpDbg on your Chassis server.
+
+- name: Whoops
+  repository: Chassis/Whoops
+  description: A Chassis extension to install and configure Whoops on your Chassis server.
+
+- name: phpmemcachedadmin
+  repository: Chassis/phpmemcachedadmin
+  description: A Chassis extension to install PHPMemcachedAdmin on your Chassis server.
+
+- name: Kibana
+  repository: Chassis/chassis_kibana
+  description: A Chassis extension to add Kibana to Chassis so you can visualise your ElasticSearch data locally.
