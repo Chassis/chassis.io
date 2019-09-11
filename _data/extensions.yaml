@@ -202,10 +202,6 @@
   repository: Chassis/Avahi_Tools
   description: A Chassis extension to install packages to help debug Avahi issues
 
-- name: Percona Server
-  repository: Chassis/percona_server
-  description: A Chassis extension to install Percona Server.
-
 - name: Pretty Permalinks
   repository: Chassis/pretty_permalinks
   description: Specify a WordPress permalink scheme when provisioning a Chassis virtual machine.
