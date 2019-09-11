@@ -66,10 +66,6 @@
   repository: shadyvb/chassis-redis
   description: Install Redis and add it to PHP.
 
-- name: MariaDB
-  repository: Chassis/MariaDB
-  description: Install MariaDB
-
 - name: SequelPro
   repository: Chassis/SequelPro
   description: Open your database in Sequel Pro with a single command
@@ -193,3 +189,23 @@
 - name: Kibana
   repository: Chassis/chassis_kibana
   description: A Chassis extension to add Kibana to Chassis so you can visualise your ElasticSearch data locally.
+
+- name: MariaDB
+  repository: Chassis/MariaDB
+  description: A Chassis extension to install MariaDB.
+
+- name: Percona Server
+  repository: Chassis/percona_server
+  description: A Chassis extension to install Percona Server.
+
+- name: Avahi Tools
+  repository: Chassis/Avahi_Tools
+  description: A Chassis extension to install packages to help debug Avahi issues
+
+- name: Percona Server
+  repository: Chassis/percona_server
+  description: A Chassis extension to install Percona Server.
+
+- name: Pretty Permalinks
+  repository: Chassis/pretty_permalinks
+  description: Specify a WordPress permalink scheme when provisioning a Chassis virtual machine.
