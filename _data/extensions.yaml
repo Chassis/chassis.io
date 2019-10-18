@@ -205,3 +205,7 @@
 - name: Pretty Permalinks
   repository: Chassis/pretty_permalinks
   description: Specify a WordPress permalink scheme when provisioning a Chassis virtual machine.
+  
+- name: Blackfire
+  repository: https://github.com/boxuk/chassis_blackfire
+  description: Install and configure Blackfire profiler.  
